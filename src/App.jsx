@@ -1,11 +1,13 @@
 import './App.css'
-
+import PuppyRoster from './components/PuppyRoster'
 const App = () => {
   
 
   return (
     <>
-      <h2>Hello World</h2>
+      <h1>Puppy Bowl 🏁</h1>
+      <PuppyRoster />
+      
     </>
   )
 }
